@@ -25,8 +25,8 @@ import random
 users_amount = [0]
 chat_ids_file = 'chat_ids.txt'
 stiker_epilep_id = 'AACAgIAAxkBAAK7dV69lfgFHAzZH78-4vIQ7ph98WrBAALzngEAAWOLRgwVfa67bOkhFxkE'
-TOKEN = '1246096842:AAEi4rkzxRFBc949Q4TIulGjvCrcSPeQUCs'
-bot = telebot.TeleBot(TOKEN)
+token = str(os.environ.get('BOT_TOKEN'))
+bot = telebot.TeleBot(token)
 types = telebot.types
 ##############################################
 #                SAVE_CHAT_ID                #
