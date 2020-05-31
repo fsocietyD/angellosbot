@@ -1,0 +1,7 @@
+requests
+telepot
+pytelegrambotapi
+numpy
+datetime
+bs4
+lxml
