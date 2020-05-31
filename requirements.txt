@@ -1,5 +1,5 @@
 requests
-telepot
+telebot
 pytelegrambotapi
 numpy
 datetime
